@@ -7,20 +7,24 @@
 Utilizing multi-variate, multi-objective, and batch Bayesian Experimental Design for optimizing medium composition and biomass formation in the batch-phase of tobacco BY-2 cell suspension cultures in a stirred-tank bioreactor.
 
 #### Typical cultivation process of BY-2 cells consisting of an initial one-week batch phase followed by a multi-week semi-continuous phase
-
-<img src="docs/bioformation.png" width="75%" />
+<p align="center">
+    <img src="docs/bioformation.png" width="75%" />
+</p>
 
 #### Process scheme with input parameters (independent variables) and objectives (dependent variables) for the biomass formation in a batch fermentation process of BY-2 cells.
-
-<img src="docs/process-scheme.png" width="75%" />
+<p align="center">
+    <img src="docs/process-scheme.png" width="75%" />
+</p>
 
 #### Overview of controllable parameters (design space) for biomass formation in a batch fermentation process of BY-2 cells
-
-<img src="docs/parameter-table.png" width="75%" />
+<p align="center">
+    <img src="docs/parameter-table.png" width="50%" />
+</p>
 
 #### Overview of objectives (objective space) for biomass formation in a batch fermentation process of BY-2 cells
-
-<img src="docs/objectives-table.png" width="75%" />
+<p align="center">
+    <img src="docs/objectives-table.png" width="50%" />
+</p>
 ---
 
 ## 2. Installation Instructions
@@ -85,6 +89,6 @@ Bayesian experimental design for optimizing medium composition and biomass forma
 ## 6. Data
 
 #### Overview of experimental data used and acquired in this study
-
-<img src="docs/data-table.png" width="75%" />
-
+<p align="center">
+    <img src="docs/data-table.png" width="75%" />
+</p>
