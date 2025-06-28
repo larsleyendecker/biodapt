@@ -30,7 +30,7 @@ Utilizing multi-variate, multi-objective, and batch Bayesian Experimental Design
 
 ## 2. Installation Instructions
 
-### Requirements
+### Requirements (Please ensure to install in proposed order)
 
 - **Python 3.12** or newer 
 - **Torch** torch==2.4.1
