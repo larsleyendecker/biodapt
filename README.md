@@ -25,7 +25,7 @@ Utilizing multi-variate, multi-objective, and batch Bayesian Experimental Design
 #### Overview of objectives (objective space) for biomass formation in a batch fermentation process of BY-2 cells
 
 <p align="center">
-    <img src="docs/objectives-table.png" width="50%" />
+    <img src="docs/objectives-table.png" width="60%" />
 </p>
 
 ## 2. Installation Instructions
@@ -56,9 +56,9 @@ pip install -r requirements.txt
 
 ## 3. Usage Instructions
 
-- [Define batch-size in] (.main.py)
-- [Configure parameters and objectives in] (.config/config.json)
-- [Provide historical experimental data in] (.data/data.csv)
+- Define batch-size in `.main.py`
+- Configure parameters and objectives in `.config/config.json`
+- Provide historical experimental data in `.data/data.csv`
 
 ```bash
 python main.py
@@ -75,11 +75,13 @@ See the `LICENSE` file for full terms.
 
 Bayesian experimental design for optimizing medium composition and biomass formation of tobacco BY-2 cell suspension cultures in stirred-tank bioreactors (currently under review)
 
+```bash
 @article{Leyendecker.2025,
  author = {Leyendecker, Lars and Nausch, Henrik and Wergers, Christian and Scheffler, Dirk and Schmitt, Robert H.},
  year = {2025},
  title = {Bayesian experimental design for optimizing medium composition and biomass formation of tobacco BY-2 cell suspension cultures in stirred-tank bioreactors}
 }
+```
 
 ## 6. Data
 
