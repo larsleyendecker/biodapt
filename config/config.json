@@ -1,0 +1,33 @@
+{
+  "objective": {
+    "name": "wet mass [g/L]",
+    "name2": "wet mass increase [g/(hL)]"
+  },
+  "parameters": [
+    {
+      "name": "phosphate [mM]",
+      "min": 1.97,
+      "max": 15
+    },
+    {
+      "name": "NO3- [mM]",
+      "min": 5,
+      "max": 150
+    },
+    {
+      "name": "NH4+ [mM]",
+      "min": 5,
+      "max": 60
+    },
+    {
+      "name": "Sucrose [mM]",
+      "min": 20,
+      "max": 175
+    },
+    {
+      "name": "start wet mass [g/L]",
+      "min": 5,
+      "max": 22
+    }
+  ]
+}
