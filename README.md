@@ -8,21 +8,19 @@ Utilizing multi-variate, multi-objective, and batch Bayesian Experimental Design
 
 #### Typical cultivation process of BY-2 cells consisting of an initial one-week batch phase followed by a multi-week semi-continuous phase
 
-![Alt Text](docs/bioformation.png)
+<img src="docs/bioformation.png" width="75%" />
 
 #### Process scheme with input parameters (independent variables) and objectives (dependent variables) for the biomass formation in a batch fermentation process of BY-2 cells.
 
-![Alt Text](docs/process-scheme.png)
+<img src="docs/process-scheme.png" width="75%" />
 
 #### Overview of controllable parameters (design space) for biomass formation in a batch fermentation process of BY-2 cells
 
-![Alt Text](docs/parameter-table.png)
-
+<img src="docs/parameter-table.png" width="75%" />
 
 #### Overview of objectives (objective space) for biomass formation in a batch fermentation process of BY-2 cells
 
-![Alt Text](docs/objectives-table.png)
-
+<img src="docs/objectives-table.png" width="75%" />
 ---
 
 ## 2. Installation Instructions
@@ -87,6 +85,6 @@ Bayesian experimental design for optimizing medium composition and biomass forma
 ## 6. Data
 
 #### Overview of experimental data used and acquired in this study
-![Alt Text](docs/data-table.png)
 
+<img src="docs/data-table.png" width="75%" />
 
