@@ -80,6 +80,8 @@ Bayesian experimental design for optimizing medium composition and biomass forma
 
 ## 5. Data
 
+The experimental data containing 34 experiments is stored in `.data/data.csv`
+
 #### Overview of experimental data used and acquired in this study
 <p align="center">
     <img src="docs/data-table.png" width="75%" />
