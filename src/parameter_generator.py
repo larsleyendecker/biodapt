@@ -112,24 +112,11 @@ def generate_parameters(config_filename: str, data_filename: str, batch_size: in
     # 
     gs = GenerationStrategy(
         name="botorch",
-        steps=[GenerationStep(
-            model=Models.BOTORCH_MODULAR, 
-            num_trials=-1),
-            model_kwargs={
-                "model_constructor": None,  # Uses MultiObjective GP model
-                "model_predictor": None, 
-                "acquisition_options": {
-                    "qNEHVI": {
-                        "alpha": 0.0,  # Noisy observations
-                        "cache_root": True,  # Cache computations
-                        "prune_baseline": True,  # Prune baseline points
-                        "mc_samples": 512,  # MC samples for acquisition
-                        "qmc": True,  # Use QMC sampling (recommended)
-                        "seed_inner": None,  # Random seed (None for random)
-                        "sequential": True,  # Sequential candidate generation
-                    }
-                },
-            },
+        steps=[
+            GenerationStep(
+                model=Models.BOTORCH_MODULAR, 
+                num_trials=-1
+            ),
         ],
     )
 
@@ -158,3 +145,32 @@ def generate_parameters(config_filename: str, data_filename: str, batch_size: in
     parameters, _ = client.get_next_trials(max_trials=batch_size)
 
     return dict_of_dicts_to_trials(parameters)
+
+def save_parameters_to_json(data, filename):
+    """Save parameters to JSON file in outputs folder.
+    
+    Args:
+        data: List of parameter dictionaries
+        filename: Output filename (default: parameters.json)
+        
+    Returns:
+        Path to saved file
+    """
+    output_dir = Path("outputs")
+    try:
+        # Create outputs directory if it doesn't exist
+        output_dir.mkdir(exist_ok=True)
+        
+        # Construct full file path
+        filepath = output_dir / filename
+        
+        # Write JSON with pretty formatting
+        with open(filepath, "w") as f:
+            json.dump(data, f, indent=4)
+        
+        print(f"Successfully saved parameters to {filepath}")
+        return filepath
+        
+    except Exception as e:
+        print(f"Error saving parameters: {str(e)}")
+        raise

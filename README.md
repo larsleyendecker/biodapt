@@ -33,11 +33,11 @@ Utilizing multi-variate, multi-objective, and batch Bayesian Experimental Design
 ### Requirements
 
 - **Python 3.12** or newer 
-- **Numpy** numpy==1.26.4
-- **Pandas** pandas==2.2.2
+- **Torch** torch==2.4.1
 - **BoTorch** botorch==0.12.0
 - **Ax** ax-platform==0.4.3
-- **Torch** torch==2.4.1
+- **Numpy** numpy==1.26.4
+- **Pandas** pandas==2.2.2
 
 ### Steps
 
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-The script prints a JSON array with the suggested parameter sets for the next trials.
+The script outputs a JSON array with the recommended experiments for conducting the next trials and saves them in `.outputs/next_experiments.json`.
 
 ## 4. Paper Reference
 
