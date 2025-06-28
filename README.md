@@ -42,8 +42,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
-
 ## 3. Usage Instructions
 
 - Define batch-size in (.main.py)
@@ -56,14 +54,10 @@ python main.py
 
 The script prints a JSON array with the suggested parameter sets for the next trials.
 
----
-
 ## 4. License
 
 Released under the **MIT License**.  
 See the `LICENSE` file for full terms.
-
----
 
 ## 5. Paper Reference
 
