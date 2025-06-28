@@ -66,12 +66,7 @@ python main.py
 
 The script prints a JSON array with the suggested parameter sets for the next trials.
 
-## 4. License
-
-Released under the **MIT License**.  
-See the `LICENSE` file for full terms.
-
-## 5. Paper Reference
+## 4. Paper Reference
 
 Bayesian experimental design for optimizing medium composition and biomass formation of tobacco BY-2 cell suspension cultures in stirred-tank bioreactors (currently under review)
 
@@ -83,9 +78,14 @@ Bayesian experimental design for optimizing medium composition and biomass forma
 }
 ```
 
-## 6. Data
+## 5. Data
 
 #### Overview of experimental data used and acquired in this study
 <p align="center">
     <img src="docs/data-table.png" width="75%" />
 </p>
+
+## 6. License
+
+Released under the **MIT License**.  
+See the `LICENSE` file for full terms.
