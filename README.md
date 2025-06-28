@@ -1,31 +1,20 @@
 
 # Bayesian experimental design for the optimization of medium composition and biomass formation of tobacco BY-2 cell suspension cultures in a stirred-tank bioreactor  
 
----
-
 ## 1. Motivation
-Utilizing multi-variate, multi-objective, and batch Bayesian Experimental Design for optimizing medium composition and biomass formation in the batch-phase of tobacco BY-2 cell suspension cultures in a stirred-tank bioreactor.
+Utilizing multi-variate, multi-objective, and batch Bayesian Experimental Design for optimizing medium composition and biomass formation in the batch-phase of tobacco BY-2 cell suspension cultures in a stirred-tank bioreactor. This repository contains the code for configuring and conducting experiments to optimize biomass formation by utilizing Bayesian Experimental Design. 
 
 #### Typical cultivation process of BY-2 cells consisting of an initial one-week batch phase followed by a multi-week semi-continuous phase
-<p align="center">
-    <img src="docs/bioformation.png" width="75%" />
-</p>
+<img src="docs/bioformation.png" width="75%" />
 
 #### Process scheme with input parameters (independent variables) and objectives (dependent variables) for the biomass formation in a batch fermentation process of BY-2 cells.
-<p align="center">
-    <img src="docs/process-scheme.png" width="75%" />
-</p>
+<img src="docs/process-scheme.png" width="75%" />
 
 #### Overview of controllable parameters (design space) for biomass formation in a batch fermentation process of BY-2 cells
-<p align="center">
-    <img src="docs/parameter-table.png" width="50%" />
-</p>
+<img src="docs/parameter-table.png" width="50%" />
 
 #### Overview of objectives (objective space) for biomass formation in a batch fermentation process of BY-2 cells
-<p align="center">
-    <img src="docs/objectives-table.png" width="50%" />
-</p>
----
+<img src="docs/objectives-table.png" width="50%" />
 
 ## 2. Installation Instructions
 
@@ -57,9 +46,9 @@ pip install -r requirements.txt
 
 ## 3. Usage Instructions
 
-- Define batch-size in main.py
-- Configure parameters and objectives in config/config.json
-- Provide historical experimental data in data/data.csv
+- Define batch-size in (.main.py)
+- Configure parameters and objectives in (.config/config.json)
+- Provide historical experimental data in (.data/data.csv)
 
 ```bash
 python main.py
