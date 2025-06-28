@@ -1,8 +1,8 @@
 
-# Bayesian experimental design for the optimization of medium composition and biomass formation of tobacco BY-2 cell suspension cultures in a stirred-tank bioreactor  
+# biodapt | Bayesian experimental design for the optimization of medium composition and biomass formation of tobacco BY-2 cell suspension cultures in a stirred-tank bioreactor  
 
 ## 1. Motivation
-Utilizing multi-variate, multi-objective, and batch Bayesian Experimental Design for optimizing medium composition and biomass formation in the batch-phase of tobacco BY-2 cell suspension cultures in a stirred-tank bioreactor. This repository contains the code for configuring and conducting experiments to optimize biomass formation by utilizing Bayesian Experimental Design. 
+Utilizing multi-variate, multi-objective, and batch Bayesian Experimental Design for optimizing medium composition and biomass formation in the batch-phase of tobacco BY-2 cell suspension cultures in a stirred-tank bioreactor. This repository contains the code for configuring and conducting experiments to optimize biomass formation by utilizing Bayesian Experimental Design. The following visualizations describe 1) the cultivation process, 2) the process scheme comprising parameters and objectives considered in optimization, and tabular overviews of both 3) input parameters and 4) objectives.
 
 #### Typical cultivation process of BY-2 cells consisting of an initial one-week batch phase followed by a multi-week semi-continuous phase
 
